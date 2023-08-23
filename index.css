@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+#post_party {
+	position: relative;
+	left: 60px;
+}
+
+.party_list {
+	display: flex;
+	flex-direction: column;
+}
+
+.party_group {
+	border-bottom: 2px solid black;
+	padding: 21px;
+	list-style: none;
+}
+
+.delete_party {
+	padding: 6px 7px;
+	display: flex;
+	cursor: pointer;
+}
